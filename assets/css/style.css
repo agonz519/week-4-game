@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    display: block;
+    font-size: 3.0em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    background-image: url("../images/eight_horns.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #292929;
+    min-height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 2px #cccccc solid;
+    box-shadow: -7px 7px 5px rgba(0, 0, 0, .3);
+    min-height: 86px;
+}
+
+.logo {
+    background-image: url("../images/honey_im_subtle.png");
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    min-height: inherit;
+
+}
+
+.entireContentArea {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.mainContent {
+    margin-bottom: 35px;
+    padding: 15px;
+    text-align: center;
+}
+
+.bgGray {
+    background: rgba(181, 181, 181, 0.6)
+}

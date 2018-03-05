@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- CSS Reset File -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- My CSS File -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:600|Righteous" rel="stylesheet">
+
+	<title>Crystal Collector</title>
+</head>
+<body>
+
+<header>
+	<div class="logo">
+		<h1>Crystal Collector</h1>
+	</div>
+</header>
+
+<div class="entireContentArea">
+	<div class="mainContent">
+		<div class="bgGray">
+			<p>You will be given a target number at the start of the game.</p><br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p><br>
+			<p>You win the game by matching your total score to the target number, you lose the game if your total score goes above the target number.</p><br>
+			<p>You will have to determine the value of each crystal by clicking on them.</p>
+			<p>Good luck!</p>
+		</div>
+		<div class="bgGray">
+			<h2>Target Number: <span id="number-to-guess"></span></h2>
+			<h2>Wins: <span id="wins"></span></h2>
+			<h2>Losses: <span id="losses"></span></h2>
+		</div>
+		<div id="crystals"></div>
+		<div class="bgGray">
+			<h2>Score: <span id="playerScore"></span></h2>
+		</div>
+
+	</div>
+
+</div>
+
+
+
+	<!-- jQuery Library -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- My JavaScript File -->
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
