@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    background-color: #fff;
+    /*background-color: #fff;*/
     margin-bottom: 20px;
     border: 2px #cccccc solid;
     box-shadow: -7px 7px 5px rgba(0, 0, 0, .3);
@@ -44,7 +44,7 @@ header {
 }
 
 .logo {
-    background-image: url("../images/honey_im_subtle.png");
+    /*background-image: url("../images/honey_im_subtle.png");*/
     padding: 10px;
     margin: auto;
     text-align: center;
@@ -66,6 +66,19 @@ header {
     text-align: center;
 }
 
-.bgGray {
-    background: rgba(181, 181, 181, 0.6)
+.bgRed {
+    background: rgba(192, 69, 69, 0.5);
+    
+}
+
+.bgBlue {
+    background: rgba(51, 118, 224, 0.5);
+}
+
+.bgGreen {
+    background: rgba(41, 204, 50, 0.5);
+}
+
+.bgYellow {
+    background: rgba(223, 191, 45, 0.5);
 }
