@@ -10,6 +10,13 @@ var imageCrystal;
 var crystals = $('#crystals');
 // What the crystals will be worth
 var numberOptions = [getRandomIntInclusive(1, 12), getRandomIntInclusive(1, 12), getRandomIntInclusive(1, 12), getRandomIntInclusive(1, 12)];
+var sourceSwap = function () {
+	var $this = $(this);
+	var newSource = $this.data('alt-src');
+	$this.data('alt-src', $this.attr('src'));
+	$this.attr('src', newSource);
+}
+
 
 // FUNCTIONS=======================================================
 
@@ -35,6 +42,13 @@ function getRandomIntInclusive(min, max) {
 	//The maximum is inclusive and the minimum is inclusive
 }
 
+$(function () {
+	$('img.crystal-image0').hover(sourceSwap, sourceSwap);
+	$('img.crystal-image1').hover(sourceSwap, sourceSwap);
+	$('img.crystal-image2').hover(sourceSwap, sourceSwap);
+	$('img.crystal-image3').hover(sourceSwap, sourceSwap);
+});
+
 // Body =========================================================
 
 newGame();
@@ -45,6 +59,7 @@ for (var i = 0; i < numberOptions.length; i++) {
 	imageCrystal.addClass('crystal-image' + i);
 	imageCrystal.attr('src', 'assets/images/crystal' + i + '.png');
 	imageCrystal.attr('data-crystalValue', numberOptions[i]);
+	imageCrystal.attr('data-alt-src', 'assets/images/crystal' + i + '_hover.png');
 	crystals.append(imageCrystal);
 }
 

@@ -37,7 +37,7 @@ body {
 
 header {
     /*background-color: #fff;*/
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 2px #cccccc solid;
     box-shadow: -7px 7px 5px rgba(0, 0, 0, .3);
     min-height: 86px;
@@ -68,7 +68,8 @@ header {
 
 .bgRed {
     background: rgba(192, 69, 69, 0.5);
-    
+    border-radius: 25px;
+    padding: 10px;
 }
 
 .bgBlue {
@@ -77,8 +78,10 @@ header {
 
 .bgGreen {
     background: rgba(41, 204, 50, 0.5);
+    border-radius: 25px;
 }
 
 .bgYellow {
     background: rgba(223, 191, 45, 0.5);
+    border-radius: 25px;
 }
